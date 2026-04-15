@@ -1,6 +1,6 @@
 from flask import Blueprint, request
-from .controllers import register_user, login_user, get_inventory
-from .views import user_registered_view, login_view, inventory_view
+from app.controllers.controllers import register_user, login_user, get_inventory
+from app.views.views import user_registered_view, login_view, inventory_view
 
 auth_bp = Blueprint("auth", __name__)
 

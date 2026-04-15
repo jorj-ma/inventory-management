@@ -1,4 +1,4 @@
-from .models import User, Role
+from app.models.models import User, Role
 
 def register_user(username, password, role_name):
     role = Role.get_by_name(role_name)
