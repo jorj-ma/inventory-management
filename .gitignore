@@ -1,7 +1,26 @@
-DLL files
+# Python
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
 
-venv
-.env
-env/
-ENV
+# Virtual environment
+venv/
+.venv/
+
+# Flask instance folder
+instance/
+
+# Flask-Migrate migrations
+migrations/
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
